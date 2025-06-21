@@ -1,0 +1,38 @@
+c=["bca","bba","bcom","barc"]
+f=[10,20,30,40]
+print(c,f)
+print(type(c))
+print(len(c))
+print("bca" in c)
+for i in c:
+    print(i)
+print(c[1])
+print(c[1:2])
+f[1]=60
+print(f)
+f.insert(3,100)
+print(f)
+c.insert(3,"mca")
+print(c)
+c.extend(f)
+print(c)
+c.remove("bca")
+print(c)
+c.pop(2)
+print(c)
+c.pop()
+print(c)
+del f
+a=[10,50,40,30]
+print(a) 
+a.sort()
+print(a)
+a.sort(reverse=True)
+print(a)
+c=a.copy()
+print(c)
+y=list(a)
+print(a)
+print(a.count(30))
+c.clear()
+print(c)

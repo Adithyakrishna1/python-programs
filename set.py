@@ -1,0 +1,38 @@
+a={1,2,3,4,5}
+print(a)
+print(type(a))
+print(len(a))
+print(2 in a)
+print(7 in a)
+print(2 not in a)
+print(7 not in a)
+for i in a:
+    print(i)
+a.add(6)
+print(a)
+b={6,7,8,9,10}
+a.update(b)
+print(a)
+b.remove(10)
+print(b)
+b.discard(5)
+print(b)
+b.discard(6)
+print(b)
+a.pop()
+print(a)
+x=a.union(b)
+print(x)
+p={1,2,3,4,5,6,7}
+print(p)
+q={5,6,7,8,9,10}
+print(q)
+y=p.intersection(q)
+print(y)
+y=p.difference(q)
+print(y)
+y=q.difference(p)
+print(y)
+a.clear()
+del b
+print(b)
